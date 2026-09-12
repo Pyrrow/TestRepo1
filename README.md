@@ -1,5 +1,7 @@
 # comments-widget
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Repository di prova per Code Guardian. Simula un piccolo widget di commenti
 lato client (rendering, autenticazione, utility), con alcune vulnerabilità
 introdotte deliberatamente per testare l'agente OWASP, e alcune funzioni
@@ -35,3 +37,8 @@ Non è codice reale: non eseguirlo, serve solo come fixture di analisi.
 - `utils.js`: raccoglie utility generali di uso comune tra moduli
 - `POLICY.md`: potrebbe contenere informazioni su policy interne o di sicurezza
 - `.DS_Store` e `README.md`: rispettivamente file di sistema macOS e descrizione principale del progetto
+
+## License
+MIT License
+
+Codice distribuito come esempio di test per Code Guardian. Non contiene codice produttivo né strumenti reali adatti all’esecuzione.
