@@ -10,6 +10,7 @@ Non è codice reale: non eseguirlo, serve solo come fixture di analisi.
 ## Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
+- [Metriche SonarQube](#metriche-sonarqube)
 
 ## Features
 - Simulazione di un widget per commenti lato client
@@ -35,3 +36,25 @@ Non è codice reale: non eseguirlo, serve solo come fixture di analisi.
 - `utils.js`: raccoglie utility generali di uso comune tra moduli
 - `POLICY.md`: potrebbe contenere informazioni su policy interne o di sicurezza
 - `.DS_Store` e `README.md`: rispettivamente file di sistema macOS e descrizione principale del progetto
+
+## Metriche SonarQube
+I seguenti file sono stati analizzati e vengono segnalate alcune metriche di qualità e complessità:
+
+### **src/auth.js**
+- **Complessità ciclomatica**: `2.0`
+- **Code Smells**: `0.0` (nessun problema rilevato)
+- **Duplicazione**: `0.0%`
+- **Security Hotspot**: `0.0` (nessun potenziale problema di sicurezza rilevato)
+
+### **src/render.js**
+- **Complessità ciclomatica**: `4.0`
+- **Code Smells**: `0.0` (nessun problema rilevato)
+- **Duplicazione**: `0.0%`
+- **Security Hotspot**: `0.0`
+
+### **src/utils.js**
+- **Complessità ciclomatica**: `8.0`
+- **Complessità cognitiva**: `5.0`
+- **Code Smells**: `0.0`
+- **Duplicazione**: `0.0%`
+- **Security Hotspot**: `0.0`
