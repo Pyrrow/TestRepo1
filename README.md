@@ -1,6 +1,10 @@
 # comments-widget
 
-Repository di prova per Code Guardian. Simula un piccolo widget di commenti
+![.DS_Store](https://img.shields.io/badge/.DS_Store-macOS%20file-lightgrey)
+![POLICY.md](https://img.shields.io/badge/POLICY.md-Presente-blue)
+![License](https://img.shields.io/badge/License-Not%20Specified-666666)
+
+> Repository di prova per Code Guardian. Simula un piccolo widget di commenti
 lato client (rendering, autenticazione, utility), con alcune vulnerabilità
 introdotte deliberatamente per testare l'agente OWASP, e alcune funzioni
 prive di documentazione per testare l'agente Docs.
